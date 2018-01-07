@@ -1,10 +1,11 @@
 # Add  code here!
 def prime?(number)
   if number <= 1
-       false
+       return false
    elsif number == 2
-       true
+       return true
    else
        (2..number/2).none? { |i| number % i == 0}
+       return false
    end
 end
