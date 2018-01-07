@@ -7,4 +7,4 @@ def prime?(number)
   end
 end
 
-prime?(numbers) {|i| i > 0 and i%i == 0}
+prime?(number) {|i| i > 0 and i%i == 0}
