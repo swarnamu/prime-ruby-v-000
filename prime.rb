@@ -1,9 +1,6 @@
 # Add  code here!
 def prime?(number)
-    if (number > 1 && number % number == 0)
-      return true
-    else
-      return false
-    end
-
+  divisor = (2..(number - 1).to_a)
+  divisor.any? { |divisor| number % divisor == 0} || number == 0 || number == 1
+  ? false : true
 end
