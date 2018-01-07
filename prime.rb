@@ -1,11 +1,7 @@
 # Add  code here!
 def prime?(number)
-  i = 0
-  while i < number.length
-    yield
-    return true
-    i = i + 1
-  end
-end
+    if (number > 0 && number % number == 0)
+      return true
+    end
 
-prime?(number) {number > 0 and number % number == 0}
+end
