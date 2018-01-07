@@ -8,4 +8,4 @@ def prime?(number)
   end
 end
 
-prime?(number) {|i| i > 0 and i % i == 0}
+prime?(number) {number > 0 and number % number == 0}
