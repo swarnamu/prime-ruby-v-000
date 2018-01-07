@@ -3,7 +3,7 @@ def prime?(number)
   if 2..(number - 1).any?{|i| number % i == 0}
   #if (number % divisor == 0 || number == 0 || number == 1)
     return false
-  elseif (number == 0 or number == 1 or number < 0)
+  elseif (number == 0 || number == 1 || number < 0)
     return false
   else
     return true
