@@ -4,5 +4,5 @@ def prime?(number)
   if number % divisor == 0} || number == 0 || number == 1
     return false
   else
-    return true  
+    return true
 end
